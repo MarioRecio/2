@@ -1,8 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package aev2;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -18,10 +13,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javafx.scene.control.Alert;
 
-/**
- *
- * @author nacho
- */
 public class Model {
 
     public static String abrirFichero() throws IOException {
