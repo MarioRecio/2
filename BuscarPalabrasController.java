@@ -1,9 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXMLController.java to edit this template
- */
-package examen2;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -22,11 +16,6 @@ import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
 
-/**
- * FXML Controller class
- *
- * @author Nacho Momparler
- */
 public class BuscarPalabrasController implements Initializable {
 
     @FXML
@@ -80,6 +69,7 @@ public class BuscarPalabrasController implements Initializable {
 
                 File nuevo = new File(f.getParent()+"\\"+f.getName());
                 f.delete();
+                nuevo.createNewFile();  //comprobar
             }
 
             try {
